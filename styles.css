@@ -1,0 +1,422 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #F2F4FC;
+    padding: 0 20px;
+}
+
+button {
+    cursor: pointer
+  }
+  
+
+a {
+    text-decoration: none;
+    color: #6B708D;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav {
+    height: 52px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav img {
+    width: 60.53px;
+    height: 18.46px;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    width: 295px;
+    height: 22px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.Home {
+    color: #072AC8;
+}
+
+.contact-us {
+    width: 150px;
+    height: 52px;
+    padding: 15px 36px;
+    border: none;
+    background-color: #072AC8;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.menu-button img {
+    width: 40px;
+    height: 20px;
+}
+
+header {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+header div {
+    padding: 50px 0;
+}
+
+header img {
+    width: 570px;
+    height: 650px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header div p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.get-in-touch {
+    width: 150px;
+    height: 52px;
+    padding: 15px 37px;
+    background-color: #072AC8;
+    color: #FFFFFF;
+    border: none;
+}
+
+.see-our-work {
+    color: #6B708D;
+    background-color: #F2F4FC;
+    border: none;
+    margin-left: 60px;
+}
+
+.client {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+}
+
+.client img {
+    width: 104px;
+    height: 32px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 200px;
+}
+
+.projects li {
+    background-color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.projects h3 {
+    padding-left: 20px;
+}
+
+.projects li p {
+    margin-bottom: 100px;
+    padding-left: 20px;
+}
+
+.projects li a {
+    color: #072AC8;
+    padding-left: 20px;
+}
+
+.testimonial {
+    background-color: #292E47;
+    margin-bottom: 200px;
+}
+ 
+
+.emojis1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 0;
+}
+
+.testimonial h2 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.testimonial p {
+    text-align: center;
+    font-size: 24px;
+    color: #FFC600;
+}
+
+.testimonial img {
+    display: flex;
+}
+
+.emojis2 {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    padding: 0 50px 50px 50px;
+}
+
+.client-info {
+    width: 171px;
+    height: 50px;
+}
+
+.Services {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.Services li {
+    background-color: #FFFFFF;
+    width: 30%;
+    padding-bottom: 20px;
+}
+
+.Services h3 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Services li img {
+    padding-left: 20px;
+}
+
+.Services li p {
+    margin-bottom: 100px;
+    padding-left: 20px;
+}
+
+.Services li a {
+    color: #072AC8;
+    padding-left: 20px;
+}
+
+.questions {
+    background-color: #FFC600;
+    text-align: center;
+    padding: 100px 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.questions h2 {
+    margin-bottom: 0;
+}
+
+.questions p {
+    margin-bottom: 60px;
+}
+
+#email {
+    border: none;
+    height: 50px;
+    width: 200px;
+    background-image: url(/images/mail-logo.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    padding: 0px 0px 0px 50px;
+}
+
+.Subscribe {
+    border: none;
+    height: 50px;
+    width: 100px;
+    background-color: #072AC8;
+    color: #F2F4FC;
+    margin-left: 20px;
+}
+
+.adress p {
+    font-size: 17px;
+    color: #6B708D;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    width: 50%;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.links li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.links a {
+    margin: 0 0 50px;
+}
+
+
+@media screen and (max-width: 1023px) {
+    nav ul {
+        display: none;
+    }
+
+    .contact-us {
+        display: none;
+    }
+
+    .menu-button {
+        display: contents;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    header div {
+        padding-top: 0;
+    }
+
+    .amazon {
+        display: none;
+    }
+
+    .client {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .client img {
+        margin-right: 200px;
+        margin-bottom: 100px;
+        margin-left: 50px;
+    }
+
+    .projects li {
+        margin-bottom: 20px;
+    }
+
+    .testimonial {
+        margin-bottom: 20px;
+    }
+
+    .links li {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .foto {
+        display: none;
+    }
+
+    .Hero {
+        display: contents;
+    }
+
+    .client {
+        margin-top: 50px;
+    }
+
+    
+    .client img {
+        margin-right: 10px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+
+    .emojis1 {
+        display: none;
+    }
+
+    .emojis2 {
+        display: none;
+    }
+
+    .Services {
+        flex-direction: column;
+    }
+
+    .Services li {
+    width: 100%;
+    margin-bottom: 20px;
+    }
+
+    .questions {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .questions h2 {
+        font-size: 24px;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #email {
+        margin-bottom: 20px;
+    }
+
+    .Subscribe {
+        height: 50px;
+        width: 250px;
+        margin-left: 10px;
+    }
+    
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links {
+        width: 80%;
+    }
+
+    .links ul {
+        align-items: center;
+    }
+}
